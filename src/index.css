@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  color: #fff;
+}
+
+body{
+  background-color: #111;
+}
+::selection{
+  color: rgb(252, 109, 0);
+}
+#tasklist::-webkit-scrollbar{
+  display:none;
+}
+
+#tasks::-webkit-scrollbar{
+  display:none;
+}
