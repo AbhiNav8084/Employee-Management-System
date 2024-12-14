@@ -1,4 +1,4 @@
-const employees = [
+const employees = [ 
   {
       "id": 1,
       "email": "employee1@example.com",
@@ -21,7 +21,7 @@ const employees = [
               "date": "2024-11-18",
               "category": "Meeting",
               "active": false,
-              "newTask": false,
+              "newTask": true,
               "completed": true,
               "failed": false
           },
